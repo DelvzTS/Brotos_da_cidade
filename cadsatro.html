@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+    <head lang="pt-br">
+        <title>Seja Voluntariado - Brotos da Cidade</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <header>
+            <h1>Mãos na terra, coração na comunidade: venha plantar o futuro 
+                do nosso bairro e fazer a cidade florescer.</h1>
+            <Img src="codex1.png" alt="Logo Projeto Brotos da cidade">
+        </header>
+        <Main>
+            <Section>
+                <form>
+                    <h2>Cadastre seus dados</h2>
+                    <Fieldset>
+                        <legend>Dados pessoais</legend>
+                        <label for="nome"> Nome:</label>
+                        <input type="text" id="nome" placeholder="Digite aqui...">
+                        <br>
+                        <Label for="CPF"> CPF:</Label>
+                        <input type="tel" id="CPF" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00">
+                        <br>
+                        <label for="data_nascimento">Data de Nascimento</label>
+                        <input type="date" id="data_nascimento">
+                        <br>
+                    </Fieldset>
+                    <fieldset>
+                        <legend>Contato</legend>
+                        <label for="email"> E-mail:</label>
+                        <input type="email" id="email" placeholder="Digite aqui">
+                        <br>
+                        <label for="Contato"> Numero Cel:</label>
+                        <input type="tel" id="Contato" patern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" placeholder="(00) 0 0000-0000">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <label for="CEP">CEP:</label>
+                        <input type="tel" id="CEP" patter="[0-9]{5}-[0-9]{3}" placeholder="000.000-00" >
+                        <br>
+                        <label for="adress">Endereço:</label>
+                        <input type="text" id="adress" placeholder="Ex: Rua dos bobos N° 0 , ao lado do arongueijo">
+                        <br>
+                            Estado:
+                            <select name="UF" id="UniFe" required>
+                                <option value="" disabled selected>Selecione o UF     
+                                <option value="UniFe">AC
+                                <option value="UniFe">AL
+                                <option value="UniFe">AP
+                                <option value="UniFe">AM
+                                <option value="UniFe">BA
+                                <option value="UniFe">CE
+                                <option value="UniFe">DF
+                                <option value="UniFe">ES
+                                <option value="UniFe">GO
+                                <option value="UniFe">MA
+                                <option value="UniFe">MT
+                                <option value="UniFe">MS
+                                <option value="UniFe">MG
+                                <option value="UniFe">PA
+                                <option value="UniFe">PB
+                                <option value="UniFe">PR
+                                <option value="UniFe">PE
+                                <option value="UniFe">PI
+                                <option value="UniFe">RJ
+                                <option value="UniFe">RN
+                                <option value="UniFe">RS
+                                <option value="UniFe">RO
+                                <option value="UniFe">RR
+                                <option value="UniFe">SC
+                                <option value="UniFe">SP
+                                <option value="UniFe">SE
+                                <option value="UniFe">TO
+                                
+                            </select>
+                        <br>
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="Cidade" placeholder="Ex:Águas de Sentina">
+
+                    </fieldset>
+                    <button onclick="alert('Enviado , Obrigado cidadão')">ENVIAR</button>
+                </form>
+            </Section>
+        </Main>
+          <footer>
+            <br>
+
+            <h5>&copy Brotos da Cidade</h5>
+
+            <h6>Todos os direitos reservados</h6>
+
+        </footer>
+    </body>
+</html>
